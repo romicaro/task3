@@ -3,4 +3,44 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Comic Sans MS', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+header{
+    background-image: url(./hockey1.jpg);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: rgb(216, 20, 20);
+}
+nav{
+    display: flex;
+    justify-content: right;
+}
+a{
+    margin: 0px 5px 0px 5px;
+    padding: 3px 10px 3px 10px; 
+    text-decoration: none;
+    color: bisque;
+    background-color: blue;
+}
+.contenido{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+.logo{
+    height: 400px;
+}
+.negrita{
+    font-weight: bold;
+}
+.events{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    justify-content: left;
+    flex-direction: column;
 }
