@@ -33,9 +33,6 @@ a{
 .logo{
     height: 400px;
 }
-.negrita{
-    font-weight: bold;
-}
 .events{
     display: flex;
     flex-direction: column;
@@ -43,4 +40,21 @@ a{
 h2{
     justify-content: left;
     flex-direction: column;
+}
+.letra{
+    list-style-type: lower-alpha;
+}
+.circulo{
+    list-style: circle;
+}
+.distribuido{
+    display: flex;
+    justify-content: space-between;
+}
+.negrita{
+    font-weight: bold;
+}
+.subrayado{
+    font-style: italic;
+    text-decoration: underline;
 }
