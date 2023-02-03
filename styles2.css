@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* body{
+    width: 300px;
+    height: 300px;
+} */
+main{
+    width: 1300px;
+}
+.nav1{
+    display: none;
+}
+.nav2{
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 750px;
+    width: 700px;
+    height: 45px;   
+}
+a{
+    display: inline-block;
+    background-color: rgb(90, 226, 250);
+    text-align: center;
+    font-size: 22px;
+    color: rgb(12, 0, 65);
+    padding: 6px;
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    width: 150px;
+    border: 1px solid rgb(0, 0, 43);
+}
+.active_botton{
+    background-color: rgb(98, 212, 32);
+}
+h1{
+    position: absolute;
+    padding: 0px 0px 0px 25px;
+    font-family: Bahnschrift, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: rgb(232, 247, 255);
+    top: 0px;
+    left: 0px;
+    width: 1300px;
+    height: 60px;
+    background-color: rgb(0, 81, 187);
+}
+img{
+    background-position: unset;
+    width: 1300px;
+    height: 600px;
+    background-size: cover;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+section{
+    position: absolute;
+    height: 399px;
+    width: 1000px;
+    top: 700px;
+    left:300px;
+    background-color: rgb(156, 234, 253);
+    padding: 0px 0px 0px 20px;
+
+}
+section>article{
+    /* height: 100px; */
+    padding: 20px 0px 0px 0px;
+    /* border: 2px solid blue; */
+}
+
+.h2-titulo{
+    width: 1300px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Bahnschrift, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 660px;
+    background-color: rgb(0, 81, 187);
+    color:rgb(232, 242, 255)
+}
+.logomdhl{
+    width: 300px;
+    height: 320px;
+    position: absolut;
+    top:750px;
+    left: 5px;
+}
+section>h2{
+    display: none;
+}
+section>article>p{
+    font-family: Bahnschrift, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 40px;
+    width: 935px;
+    font-size: 20px;
+    /* border: 1px solid green; */
+}
+section>article>h3{
+    font-family: Bahnschrift, Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
