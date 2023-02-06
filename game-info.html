@@ -9,81 +9,88 @@
     <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
-    <header>
+    <header class="game">
         <h1>Mighty Ducks Hockey League</h1>
-        <img src="./hockey4.jpg" alt="Imágen de jugadores de Mighty Ducks Hockey League">
-    </header>
-    <main>
         <nav class="nav1">
             <a href="index.html">Home</a>
             <a href="about.html">About MDHL</a>
             <a href="contact.html">Contact</a>
-            <a href="rules.html">Contact</a>
-            <a href="#">Contact</a>
+            <a href="rules.html">Rules</a>
+            <a href="#">Games</a>
         </nav>
+        <!-- <img src="./hockey4.jpg" alt="Imágen de jugadores de Mighty Ducks Hockey League"> -->
+    </header>
+    <main>
+        <!-- <nav class="nav1">
+            <a href="index.html">Home</a>
+            <a href="about.html">About MDHL</a>
+            <a href="contact.html">Contact</a>
+            <a href="rules.html">Rules</a>
+            <a href="#">Games</a>
+        </nav> -->
         <div class="contenido">
             <section class="events">
                 <h2>Fall Schedule</h2>
                 <p class="subrayado">*All games take place on Saturday.</p>
                 <table class="tabla">
                     <thead class="tabla">
-                        <tr>
-                            <th class="tabla">SEPTEMBER</th>
-                            <th class="tabla">Teams</th>
-                            <th class="tabla">Location</th>
-                            <th class="tabla">Times</th>
+                        <tr class="encabezado">
+                            <th>SEPTEMBER</th>
+                            <th>Teams</th>
+                            <th>Location</th>
+                            <th>Times</th>
                         </tr>
                     </thead>
                     <tbody class="tabla">
-                        <tr>
-                            <td rowspan="2" class="tabla">9/01</td>
-                            <td class="tabla">U1 and U4</td>
-                            <td class="tabla">AJ Katzenmaier</td>
-                            <td class="tabla">9:30 a.m.</td>
+                        <tr class="tabla-impar">
+                            <td rowspan="2">9/01</td>
+                            <td>U1 and U4</td>
+                            <td>AJ Katzenmaier</td>
+                            <td>9:30 a.m.</td>
+                        </tr>
+                        <tr class="tabla-impar">
+                            <td>U3 and U2</td>
+                            <td>Greenbay</td>
+                            <td>1:00 p.m.</td>
                         </tr>
                         <tr>
-                            <td class="tabla">U3 and U2</td>
-                            <td class="tabla">Greenbay</td>
-                            <td class="tabla">1:00 p.m.</td>
+                            <td rowspan="2">9/08</td>
+                            <td>U5 and U6</td>
+                            <td>Howard A Yeager</td>
+                            <td>9:30 a.m.</td>
                         </tr>
                         <tr>
-                            <td rowspan="2" class="tabla">9/08</td>
-                            <td class="tabla">U5 and U6</td>
-                            <td class="tabla">Howard A Yeager</td>
-                            <td class="tabla">9:30 a.m.</td>
+                            <td>U6 and U1</td>
+                            <td>Marjorie P Hart</td>
+                            <td>1:00 p.m.</td>
+                        </tr>
+                        <tr class="tabla-impar">
+                            <td rowspan="2">9/15</td>
+                            <td>U2 and U4</td>
+                            <td>North</td>
+                            <td>9:30 a.m.</td>
+                        </tr>
+                        <tr class="tabla-impar">
+                            <td>U3 and U5</td>
+                            <td>AJ Katzenmaier</td>
+                            <td>1:00 p.m.</td>
                         </tr>
                         <tr>
-                            <td class="tabla">U6 and U1</td>
-                            <td class="tabla">Marjorie P Hart</td>
-                            <td class="tabla">1:00 p.m.</td>
+                            <td rowspan="2">9/22</td>
+                            <td>U1 and U3</td>
+                            <td>South</td>
+                            <td>9:30 a.m.</td>
                         </tr>
                         <tr>
-                            <td rowspan="2" class="tabla">9/15</td>
-                            <td class="tabla">U2 and U4</td>
-                            <td class="tabla">North</td>
-                            <td class="tabla">9:30 a.m.</td>
+                            <td>U2 and U6</td>
+                            <td>Howard A Yeager</td>
+                            <td>1:00 p.m.</td>
                         </tr>
-                        <tr>
-                            <td class="tabla">U3 and U5</td>
-                            <td class="tabla">AJ Katzenmaier</td>
-                            <td class="tabla">1:00 p.m.</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="2" class="tabla">9/22</td>
-                            <td class="tabla">U1 and U3</td>
-                            <td class="tabla">South</td>
-                            <td class="tabla">9:30 a.m.</td>
-                        </tr>
-                        <tr>
-                            <td class="tabla">U2 and U6</td>
-                            <td class="tabla">Howard A Yeager</td>
-                            <td class="tabla">1:00 p.m.</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="2" class="tabla">9/29</td>
-                            <td class="tabla">U4 and U5</td>
-                            <td class="tabla">Greenbay</td>
-                            <td class="tabla">9:30 a.m.</td>
+                        <tr class="tabla-impar">
+                            <td rowspan="2">9/29</td>
+                            <td>U4 and U5</td>
+                            <td>Greenbay</td>
+                            <td>9:30 a.m.</td>
                         </tr>
                     </tbody>
                     <tfoot>
@@ -110,6 +117,13 @@
             <img class= "logo" src="./logo_mighty_ducks-01.png" alt="Logo de Mighty Ducks">
         </div>
     </main>
-
+    <footer class="footer">
+        <h2>Argentina Programa 2023 | Mindhub</h2>
+        <div class="bloque-redes">
+            <img class="redes" src="instagram.png" alt="Seguinos en instagram">
+            <img class="redes" src="facebook.png"Miranos en Facebook">
+            <img class="redes" src="twitter.png" alt="Seguinos en Twitter">
+        </div>
+    </footer>
 </body>
 </html>
