@@ -24,42 +24,91 @@
     </header>
     <main>
         <div class="contenido">
-            <h2>Registration Form</h2>
-            <form action="" method="get">
-                <fieldset>
-                    <label for="nombre">Player First Name: </label>
-                    <input type="text" name="nombre" id="nombre">
-                    <label for="apellido">Last Name: </label>
-                    <input type="text" name="apellido" id="apellido">
-                    <label>Street Address: <input type="text" name="street" id="street"></label>
-                    <label>City: <input type="text" name="city" id="city"></label>
-                    <label>Zip Code: <input type="number" name="cp" id="cp"></label>
-                    <label>Birth Date (mm/dd/yyyy): <input type="date" name="birth" id="birth"></label>
-                </fieldset>
-                <fieldset>    
-                    <legend>Gender</legend>
-                    <label>Female: <input type="radio" name="gender" id="female"></label>
-                    <label>Male: <input type="radio" name="gender" id="male"></label>
-                </fieldset>
-                <fieldset>    
-                    <legend>Grade</legend>
-                    <label>Pre-School: <input type="radio" name="grade" id="pre-school"></label>
-                    <label>1st: <input type="radio" name="grade" id="primero"></label>
-                    <label>2nd: <input type="radio" name="grade" id="segundo"></label>
-                    <label>3rd: <input type="radio" name="grade" id="tercero"></label>
-                    <label>4th: <input type="radio" name="grade" id="cuarto"></label>
-                    <label>5th: <input type="radio" name="grade" id="quinto"></label>
-                </fieldset>
-                <fieldset>    
-                    <legend>Which elementary school do you live near?</legend>
-                    <legend>Closest School:</legend>
-                    <label>AJ Katzenmaier: <input type="checkbox" name="closest" id="ajk"></label>
-                    <label>Greenbay: <input type="checkbox" name="closest" id="greenbay"></label>
-                    <label>Howard A Yeager: <input type="checkbox" name="closest" id="howard"></label>
-                    <label>Marjorie P Hart: <input type="checkbox" name="closest" id="marjorie"></label>
-                </fieldset>
-            </form>
-            <img class= "logo" src="./logo_mighty_ducks-01.png" alt="Logo de Mighty Ducks">
+            <div class="formulario">
+                <h2>Registration Form</h2>
+                <form class="form" action="./show_data.txt" method="get">
+                    <fieldset>
+                        <div>
+                            <legend class="borde-inferior">Player</legend>
+                        </div>
+                        <div>
+                            <label for="nombre">First Name: </label>
+                            <input type="text" name="nombre" id="nombre">
+                            <label for="apellido">Last Name: </label>
+                            <input type="text" name="apellido" id="apellido">
+                            <label>Street Address: <input type="text" name="street" id="street"></label>
+                            <label>City: <input type="text" name="city" id="city"></label>
+                            <label>Zip Code: <input type="number" name="cp" id="cp"></label>
+                            <label>Birth Date (mm/dd/yyyy): <input type="date" name="birth" id="birth"></label>
+                        </div>
+                    </fieldset>
+                    <fieldset> 
+                        <div>   
+                            <legend class="negrita">Gender</legend>
+                        </div>
+                        <div>
+                            <label>Female: <input type="radio" name="gender" id="female"></label>
+                            <label>Male: <input type="radio" name="gender" id="male"></label>
+                        </div>
+                    </fieldset>
+                    <fieldset>    
+                            <legend class="negrita">Grade</legend>
+                            <label>Pre-School: <input type="radio" name="grade" id="pre-school"></label>
+                            <label>1st: <input type="radio" name="grade" id="primero"></label>
+                            <label>2nd: <input type="radio" name="grade" id="segundo"></label>
+                            <label>3rd: <input type="radio" name="grade" id="tercero"></label>
+                            <label>4th: <input type="radio" name="grade" id="cuarto"></label>
+                            <label>5th: <input type="radio" name="grade" id="quinto"></label>
+                    </fieldset>
+                    <fieldset>   
+                        <div> 
+                            <legend class="borde-inferior">Which elementary school do you live near?</legend>
+                        </div>
+                        <div>    
+                            <legend class="negrita">Closest School:</legend>
+                            <label>AJ Katzenmaier: <input type="checkbox" name="closest" id="ajk"></    label>
+                            <label>Greenbay: <input type="checkbox" name="closest" id="greenbay"></label>
+                            <label>Howard A Yeager: <input type="checkbox" name="closest" id="howard"></label>
+                            <label>Marjorie P Hart: <input type="checkbox" name="closest" id="marjorie"></label>
+                            <label>North Elementary: <input type="checkbox" name="closest" id="north"></label>
+                            <label>South Elementary: <input type="checkbox" name="closest" id="south"></label>
+                        </div>
+                    </fieldset>
+                    <fieldset>  
+                        <div>  
+                            <legend class="borde-inferior">What position(s) do you normally play? (check all that apply)</legend>
+                        </div>
+                        <div>
+                            <label>Forward: <input type="checkbox" name="position" id="forward"></label>
+                            <label>Defense: <input type="checkbox" name="position" id="defense"></label>
+                            <label>Midfield: <input type="checkbox" name="position" id="midfield"></label>
+                            <label>Goalkeeper: <input type="checkbox" name="position" id="goalkeeper"></label>
+                        </div>
+                    </fieldset>
+                    <fieldset>    
+                        <div>
+                            <legend class="borde-inferior">Uniform Size</legend>
+                        </div>
+                        <div>
+                            <label>Youth Small: <input type="checkbox" name="size" id="youth-small"></label>
+                            <label>Youth Medium: <input type="checkbox" name="size" id="youth-medium"></label>
+                            <label>Youth Large: <input type="checkbox" name="size" id="youth-large"></label>
+                            <label>Small: <input type="checkbox" name="size" id="small"></label>
+                            <label>Medium: <input type="checkbox" name="size" id="medium"></label>
+                            <label>Large: <input type="checkbox" name="size" id="large"></label>
+                            <label>Extra-Large: <input type="checkbox" name="size" id="x-large"></label>
+                        </div>
+                    </fieldset>
+                </form>
+            
+                <h3 class="borde-inferior margen-sup">Permission to play</h3>
+                <p>I, the parent or guardianof the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or fron MDHL sponsored activities, which transportation.</p>
+                <p>By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>   
+                <form class="form" action="">
+                    <label class="margen-sup">Parent/Guardian Signature: <input type="text" name:"padre" id="parent"></label>
+                </form>
+            </div>
+        <img class= "logo" src="./logo_mighty_ducks-01.png" alt="Logo de Mighty Ducks">
         </div>
     </main>
     <footer class="footer">
