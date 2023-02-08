@@ -43,7 +43,7 @@ header{
 }
 h1{
     margin-left: 2%;
-    font-size: 300%;
+    font-size: 275%;
     color: rgb(216, 20, 20);
     position: fixed;
 }
@@ -61,7 +61,7 @@ nav{
     text-decoration: none;
     color: bisque;
     background-color: rgb(201, 1, 1);
-    transition: 1s;
+    transition: 0.3s;
 }
 .anc:hover{
    font-size: 140%;
@@ -88,11 +88,14 @@ nav{
 .events{
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 h2{
     justify-content: left;
     flex-direction: column;
 }
+
 .letra{
     list-style-type: lower-alpha;
 }
@@ -129,12 +132,32 @@ fieldset{
     margin-top: 5%;
     border: none;
 }
+#cp{
+    width: 10%;
+}
+#birth{
+    width: 14%
+}
+#apellido, #nombre{
+    width: 20%;
+}
+input{
+    margin-right: 3%;
+}
+.grade{
+    display: flex;
+    justify-content: space-around;
+}
 .negrita{
     font-weight: bold;
 }
 .subrayado{
     font-style: italic;
     text-decoration: underline;
+}
+.center{
+    display: flex;
+    justify-content: center;
 }
 .borde-inferior{
     border-bottom: 2px solid red;
