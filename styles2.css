@@ -54,12 +54,14 @@ h1{
     /* padding: 1%;
     border: 2px solid red; */
 }
-nav{
+.nav{
     margin: 2%;
     position: fixed;
     right: 0%;
-    /* display: flex;
-    justify-content: right; */
+    /* flex-direction: column; */
+    display: flex;
+    /* justify-content: right; */
+    /* border: 2px solid green; */
 }
 .anc{
     /* margin: 0px 5px 0px 5px; */
@@ -71,6 +73,7 @@ nav{
     transition: 0.3s;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgb(255, 129, 107);
+    margin: 0 4px 0 4px;
 }
 .anc:hover{
    font-size: 140%;
@@ -84,6 +87,7 @@ nav{
     background-color: rgb(11, 116, 2);
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgb(255, 129, 107);
+    margin: 0 4px 0 4px;
 }
 .contenido{
     padding-top: 5%;
@@ -199,4 +203,24 @@ input{
 }
 .redes:hover{
     transform: scale(1.5, 1.5);
+}
+@media only screen and (min-width: 375px) and (max-width: 767px){
+    .nav{
+        flex-direction: column;
+        margin-top: 130px;
+    }  
+    h1{
+        position: static;
+    }
+}
+@media only screen and (min-width: 368px) and (max-width: 1440px){
+    .nav{
+        flex-direction: column;
+        margin-top: 20px;
+    }  
+    .contenido{
+        padding-right: 130px;
+    }
+    .anc:hover{
+        font-size: 120%;
 }
