@@ -133,6 +133,9 @@ h2{
 .tabla-impar{
     background-color: rgb(253, 199, 167);
 }
+.mapa{
+    width: 50%;
+}
 .contenido{
     display: flex;
 }
@@ -208,18 +211,26 @@ input{
     .nav{
         flex-direction: column;
         margin-top: 130px;
+        font-size: 0%;
+        transition: 0.05s;
     }  
+    .nav:hover{
+        font-size: 120%;
+    }
     h1{
         position: static;
     }
+    .contenido{
+        /* padding-right: 0px; */
+    }
 }
-@media only screen and (min-width: 368px) and (max-width: 1440px){
+@media only screen and (min-width: 768px) and (max-width: 1440px){
     .nav{
         flex-direction: column;
         margin-top: 20px;
     }  
     .contenido{
-        padding-right: 130px;
+        padding-right: 150px;
     }
     .anc:hover{
         font-size: 120%;
